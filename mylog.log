@@ -1,0 +1,919 @@
+2019-03-13 11:15:46 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.whitehouse.gov/news/page/5/> (referer: https://www.whitehouse.gov/news/page/4/)
+Traceback (most recent call last):
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/Users/kangchen/USAGovernment/USAGovernment/spiders/whitehouse.py", line 38, in parse
+    next_url = "https://www.whitehouse.gov/news/page/" + str(int(response.url.splite('/')[-2])+1) + '/'
+AttributeError: 'str' object has no attribute 'splite'
+2019-03-13 11:25:20 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.whitehouse.gov/news/page/5/> (referer: https://www.whitehouse.gov/news/page/4/)
+Traceback (most recent call last):
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/Users/kangchen/USAGovernment/USAGovernment/spiders/whitehouse.py", line 38, in parse
+    next_url = "https://www.whitehouse.gov/news/page/" + str(int(response.url.splite('/')[-2])+1) + '/'
+AttributeError: 'str' object has no attribute 'splite'
+2019-03-13 11:26:24 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.whitehouse.gov/news/page/5/> (referer: https://www.whitehouse.gov/news/page/4/)
+Traceback (most recent call last):
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/Users/kangchen/USAGovernment/USAGovernment/spiders/whitehouse.py", line 38, in parse
+    next_url = "https://www.whitehouse.gov/news/page/" + str(int(response.url.splite('/')[-2])+1) + '/'
+AttributeError: 'str' object has no attribute 'splite'
+2019-03-13 11:27:15 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.whitehouse.gov/news/page/5/> (referer: https://www.whitehouse.gov/news/page/4/)
+Traceback (most recent call last):
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/Users/kangchen/USAGovernment/USAGovernment/spiders/whitehouse.py", line 39, in parse
+    next_url = "https://www.whitehouse.gov/news/page/" + str(int(response.url.splite('/')[-2])+1) + '/'
+AttributeError: 'str' object has no attribute 'splite'
+2019-03-13 11:27:43 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.whitehouse.gov/news/page/3/> (referer: https://www.whitehouse.gov/news/page/2/)
+Traceback (most recent call last):
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/Users/kangchen/USAGovernment/USAGovernment/spiders/whitehouse.py", line 39, in parse
+    next_url = "https://www.whitehouse.gov/news/page/" + str(int(response.url.splite('/')[-2])+1) + '/'
+AttributeError: 'str' object has no attribute 'splite'
+2019-03-13 11:27:51 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.whitehouse.gov/news/page/3/> (referer: https://www.whitehouse.gov/news/page/2/)
+Traceback (most recent call last):
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/Users/kangchen/USAGovernment/USAGovernment/spiders/whitehouse.py", line 39, in parse
+    next_url = "https://www.whitehouse.gov/news/page/" + str(int(response.url.splite('/')[-2])+1) + '/'
+AttributeError: 'str' object has no attribute 'splite'
+2019-03-14 08:48:47 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.whitehouse.gov/briefings-statements/text-letter-president-senate-committee-banking-housing-urban-affairs-house-committee-financial-services-5/> (referer: https://www.whitehouse.gov/news/)
+Traceback (most recent call last):
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/kangchen/USAGovernment/USAGovernment/spiders/whitehouse.py", line 51, in parse_deeper
+    item['content'] = response.xpath('//*[@id="main-content"]/div[2]/div/div//p/text()').extract().strip()
+AttributeError: 'list' object has no attribute 'strip'
+2019-03-14 08:48:47 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.whitehouse.gov/briefings-statements/bill-announcement-25/> (referer: https://www.whitehouse.gov/news/)
+Traceback (most recent call last):
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/kangchen/USAGovernment/USAGovernment/spiders/whitehouse.py", line 51, in parse_deeper
+    item['content'] = response.xpath('//*[@id="main-content"]/div[2]/div/div//p/text()').extract().strip()
+AttributeError: 'list' object has no attribute 'strip'
+2019-03-14 08:48:47 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.whitehouse.gov/briefings-statements/statement-by-the-president-29/> (referer: https://www.whitehouse.gov/news/)
+Traceback (most recent call last):
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/kangchen/USAGovernment/USAGovernment/spiders/whitehouse.py", line 51, in parse_deeper
+    item['content'] = response.xpath('//*[@id="main-content"]/div[2]/div/div//p/text()').extract().strip()
+AttributeError: 'list' object has no attribute 'strip'
+2019-03-14 08:48:47 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.whitehouse.gov/presidential-actions/presidential-memorandum-secretary-defense-11/> (referer: https://www.whitehouse.gov/news/)
+Traceback (most recent call last):
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/kangchen/USAGovernment/USAGovernment/spiders/whitehouse.py", line 51, in parse_deeper
+    item['content'] = response.xpath('//*[@id="main-content"]/div[2]/div/div//p/text()').extract().strip()
+AttributeError: 'list' object has no attribute 'strip'
+2019-03-14 08:48:47 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.whitehouse.gov/briefings-statements/washington-post-fentanyl-failure/> (referer: https://www.whitehouse.gov/news/)
+Traceback (most recent call last):
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/kangchen/USAGovernment/USAGovernment/spiders/whitehouse.py", line 51, in parse_deeper
+    item['content'] = response.xpath('//*[@id="main-content"]/div[2]/div/div//p/text()').extract().strip()
+AttributeError: 'list' object has no attribute 'strip'
+2019-03-14 08:48:47 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.whitehouse.gov/briefings-statements/second-lady-karen-pence-participates-special-olympics-world-games/> (referer: https://www.whitehouse.gov/news/)
+Traceback (most recent call last):
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/kangchen/USAGovernment/USAGovernment/spiders/whitehouse.py", line 51, in parse_deeper
+    item['content'] = response.xpath('//*[@id="main-content"]/div[2]/div/div//p/text()').extract().strip()
+AttributeError: 'list' object has no attribute 'strip'
+2019-03-14 08:48:47 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.whitehouse.gov/presidential-actions/president-donald-j-trump-announces-intent-nominate-appoint-individuals-key-administration-posts-9/> (referer: https://www.whitehouse.gov/news/)
+Traceback (most recent call last):
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/kangchen/USAGovernment/USAGovernment/spiders/whitehouse.py", line 51, in parse_deeper
+    item['content'] = response.xpath('//*[@id="main-content"]/div[2]/div/div//p/text()').extract().strip()
+AttributeError: 'list' object has no attribute 'strip'
+2019-03-14 08:48:47 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.whitehouse.gov/briefings-statements/remarks-vice-president-pence-u-s-customs-border-protection-advanced-training-facility-harpers-ferry-wv/> (referer: https://www.whitehouse.gov/news/)
+Traceback (most recent call last):
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/kangchen/USAGovernment/USAGovernment/spiders/whitehouse.py", line 51, in parse_deeper
+    item['content'] = response.xpath('//*[@id="main-content"]/div[2]/div/div//p/text()').extract().strip()
+AttributeError: 'list' object has no attribute 'strip'
+2019-03-14 08:48:47 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.whitehouse.gov/briefings-statements/president-donald-j-trump-award-medal-honor-7/> (referer: https://www.whitehouse.gov/news/)
+Traceback (most recent call last):
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/kangchen/USAGovernment/USAGovernment/spiders/whitehouse.py", line 51, in parse_deeper
+    item['content'] = response.xpath('//*[@id="main-content"]/div[2]/div/div//p/text()').extract().strip()
+AttributeError: 'list' object has no attribute 'strip'
+2019-03-14 08:48:47 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.whitehouse.gov/articles/administration-growth-forecasts-historical-perspective/> (referer: https://www.whitehouse.gov/news/)
+Traceback (most recent call last):
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/kangchen/USAGovernment/USAGovernment/spiders/whitehouse.py", line 51, in parse_deeper
+    item['content'] = response.xpath('//*[@id="main-content"]/div[2]/div/div//p/text()').extract().strip()
+AttributeError: 'list' object has no attribute 'strip'
+2019-03-14 08:48:47 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.whitehouse.gov/briefings-statements/white-house-seeks-billions-record-investments-stop-drug-epidemic/> (referer: https://www.whitehouse.gov/news/page/2/)
+Traceback (most recent call last):
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/kangchen/USAGovernment/USAGovernment/spiders/whitehouse.py", line 51, in parse_deeper
+    item['content'] = response.xpath('//*[@id="main-content"]/div[2]/div/div//p/text()').extract().strip()
+AttributeError: 'list' object has no attribute 'strip'
+2019-03-14 08:48:47 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.whitehouse.gov/briefings-statements/press-briefing-press-secretary-sarah-sanders-omb-acting-director-russell-vought-031119/> (referer: https://www.whitehouse.gov/news/page/2/)
+Traceback (most recent call last):
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/kangchen/USAGovernment/USAGovernment/spiders/whitehouse.py", line 51, in parse_deeper
+    item['content'] = response.xpath('//*[@id="main-content"]/div[2]/div/div//p/text()').extract().strip()
+AttributeError: 'list' object has no attribute 'strip'
+2019-03-14 08:48:47 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.whitehouse.gov/presidential-actions/ten-nominations-sent-senate-2/> (referer: https://www.whitehouse.gov/news/page/2/)
+Traceback (most recent call last):
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/kangchen/USAGovernment/USAGovernment/spiders/whitehouse.py", line 51, in parse_deeper
+    item['content'] = response.xpath('//*[@id="main-content"]/div[2]/div/div//p/text()').extract().strip()
+AttributeError: 'list' object has no attribute 'strip'
+2019-03-14 08:48:47 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.whitehouse.gov/briefings-statements/remarks-vice-president-pence-credit-union-national-associations-government-affairs-conference/> (referer: https://www.whitehouse.gov/news/page/2/)
+Traceback (most recent call last):
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/kangchen/USAGovernment/USAGovernment/spiders/whitehouse.py", line 51, in parse_deeper
+    item['content'] = response.xpath('//*[@id="main-content"]/div[2]/div/div//p/text()').extract().strip()
+AttributeError: 'list' object has no attribute 'strip'
+2019-03-14 08:48:47 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.whitehouse.gov/briefings-statements/message-congress-continuation-national-emergency-respect-iran/> (referer: https://www.whitehouse.gov/news/page/2/)
+Traceback (most recent call last):
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/kangchen/USAGovernment/USAGovernment/spiders/whitehouse.py", line 51, in parse_deeper
+    item['content'] = response.xpath('//*[@id="main-content"]/div[2]/div/div//p/text()').extract().strip()
+AttributeError: 'list' object has no attribute 'strip'
+2019-03-14 08:48:47 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.whitehouse.gov/briefings-statements/administration-presents-president-trumps-fiscal-year-2020-budget-request/> (referer: https://www.whitehouse.gov/news/page/2/)
+Traceback (most recent call last):
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/kangchen/USAGovernment/USAGovernment/spiders/whitehouse.py", line 51, in parse_deeper
+    item['content'] = response.xpath('//*[@id="main-content"]/div[2]/div/div//p/text()').extract().strip()
+AttributeError: 'list' object has no attribute 'strip'
+2019-03-14 08:48:47 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.whitehouse.gov/briefings-statements/feulner-give-border-patrol-break/> (referer: https://www.whitehouse.gov/news/page/2/)
+Traceback (most recent call last):
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/kangchen/USAGovernment/USAGovernment/spiders/whitehouse.py", line 51, in parse_deeper
+    item['content'] = response.xpath('//*[@id="main-content"]/div[2]/div/div//p/text()').extract().strip()
+AttributeError: 'list' object has no attribute 'strip'
+2019-03-14 08:48:47 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.whitehouse.gov/briefings-statements/text-notice-continuation-national-emergency-respect-iran-2/> (referer: https://www.whitehouse.gov/news/page/2/)
+Traceback (most recent call last):
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/kangchen/USAGovernment/USAGovernment/spiders/whitehouse.py", line 51, in parse_deeper
+    item['content'] = response.xpath('//*[@id="main-content"]/div[2]/div/div//p/text()').extract().strip()
+AttributeError: 'list' object has no attribute 'strip'
+2019-03-14 08:48:47 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.whitehouse.gov/briefings-statements/president-donald-j-trump-promoting-fiscally-responsible-pro-american-2020-budget/> (referer: https://www.whitehouse.gov/news/page/2/)
+Traceback (most recent call last):
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/kangchen/USAGovernment/USAGovernment/spiders/whitehouse.py", line 51, in parse_deeper
+    item['content'] = response.xpath('//*[@id="main-content"]/div[2]/div/div//p/text()').extract().strip()
+AttributeError: 'list' object has no attribute 'strip'
+2019-03-14 08:48:47 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.whitehouse.gov/briefings-statements/readout-vice-president-pences-meeting-majesty-king-abdullah-ii-jordan/> (referer: https://www.whitehouse.gov/news/page/2/)
+Traceback (most recent call last):
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/kangchen/USAGovernment/USAGovernment/spiders/whitehouse.py", line 51, in parse_deeper
+    item['content'] = response.xpath('//*[@id="main-content"]/div[2]/div/div//p/text()').extract().strip()
+AttributeError: 'list' object has no attribute 'strip'
+2019-03-14 08:48:48 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.whitehouse.gov/presidential-actions/president-donald-j-trump-announces-judicial-nominees/> (referer: https://www.whitehouse.gov/news/page/3/)
+Traceback (most recent call last):
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/kangchen/USAGovernment/USAGovernment/spiders/whitehouse.py", line 51, in parse_deeper
+    item['content'] = response.xpath('//*[@id="main-content"]/div[2]/div/div//p/text()').extract().strip()
+AttributeError: 'list' object has no attribute 'strip'
+2019-03-14 08:48:48 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.whitehouse.gov/presidential-actions/president-donald-j-trump-announces-intent-nominate-personnel-key-administration-posts-72/> (referer: https://www.whitehouse.gov/news/page/3/)
+Traceback (most recent call last):
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/kangchen/USAGovernment/USAGovernment/spiders/whitehouse.py", line 51, in parse_deeper
+    item['content'] = response.xpath('//*[@id="main-content"]/div[2]/div/div//p/text()').extract().strip()
+AttributeError: 'list' object has no attribute 'strip'
+2019-03-14 08:48:48 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.whitehouse.gov/briefings-statements/text-letter-certain-congressional-committees-reorganization-plan-united-states-international-development-finance-corporation/> (referer: https://www.whitehouse.gov/news/page/3/)
+Traceback (most recent call last):
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/kangchen/USAGovernment/USAGovernment/spiders/whitehouse.py", line 51, in parse_deeper
+    item['content'] = response.xpath('//*[@id="main-content"]/div[2]/div/div//p/text()').extract().strip()
+AttributeError: 'list' object has no attribute 'strip'
+2019-03-14 08:48:48 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.whitehouse.gov/briefings-statements/omb-acting-director-russ-vought-spending-addiction-threatens-american-economic-resurgence/> (referer: https://www.whitehouse.gov/news/page/3/)
+Traceback (most recent call last):
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/kangchen/USAGovernment/USAGovernment/spiders/whitehouse.py", line 51, in parse_deeper
+    item['content'] = response.xpath('//*[@id="main-content"]/div[2]/div/div//p/text()').extract().strip()
+AttributeError: 'list' object has no attribute 'strip'
+2019-03-14 08:48:48 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.whitehouse.gov/briefings-statements/remarks-president-trump-visit-disaster-relief-center/> (referer: https://www.whitehouse.gov/news/page/3/)
+Traceback (most recent call last):
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/kangchen/USAGovernment/USAGovernment/spiders/whitehouse.py", line 51, in parse_deeper
+    item['content'] = response.xpath('//*[@id="main-content"]/div[2]/div/div//p/text()').extract().strip()
+AttributeError: 'list' object has no attribute 'strip'
+2019-03-14 08:48:48 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.whitehouse.gov/briefings-statements/remarks-vice-president-pence-2019-oil-gas-association-annual-meeting-columbus-oh/> (referer: https://www.whitehouse.gov/news/page/3/)
+Traceback (most recent call last):
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/kangchen/USAGovernment/USAGovernment/spiders/whitehouse.py", line 51, in parse_deeper
+    item['content'] = response.xpath('//*[@id="main-content"]/div[2]/div/div//p/text()').extract().strip()
+AttributeError: 'list' object has no attribute 'strip'
+2019-03-14 08:48:48 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.whitehouse.gov/briefings-statements/remarks-president-trump-tour-lee-county-neighborhood/> (referer: https://www.whitehouse.gov/news/page/3/)
+Traceback (most recent call last):
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/kangchen/USAGovernment/USAGovernment/spiders/whitehouse.py", line 51, in parse_deeper
+    item['content'] = response.xpath('//*[@id="main-content"]/div[2]/div/div//p/text()').extract().strip()
+AttributeError: 'list' object has no attribute 'strip'
+2019-03-14 08:48:48 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.whitehouse.gov/briefings-statements/statement-press-secretary-visit-president-jair-bolsonaro-brazil/> (referer: https://www.whitehouse.gov/news/page/3/)
+Traceback (most recent call last):
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/kangchen/USAGovernment/USAGovernment/spiders/whitehouse.py", line 51, in parse_deeper
+    item['content'] = response.xpath('//*[@id="main-content"]/div[2]/div/div//p/text()').extract().strip()
+AttributeError: 'list' object has no attribute 'strip'
+2019-03-14 08:48:48 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.whitehouse.gov/briefings-statements/remarks-president-trump-marine-one-departure-33/> (referer: https://www.whitehouse.gov/news/page/3/)
+Traceback (most recent call last):
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/kangchen/USAGovernment/USAGovernment/spiders/whitehouse.py", line 51, in parse_deeper
+    item['content'] = response.xpath('//*[@id="main-content"]/div[2]/div/div//p/text()').extract().strip()
+AttributeError: 'list' object has no attribute 'strip'
+2019-03-14 08:48:48 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.whitehouse.gov/briefings-statements/president-donald-j-trump-amends-florida-disaster-declaration-4/> (referer: https://www.whitehouse.gov/news/page/3/)
+Traceback (most recent call last):
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/kangchen/USAGovernment/USAGovernment/spiders/whitehouse.py", line 51, in parse_deeper
+    item['content'] = response.xpath('//*[@id="main-content"]/div[2]/div/div//p/text()').extract().strip()
+AttributeError: 'list' object has no attribute 'strip'
+2019-03-14 08:48:48 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.whitehouse.gov/articles/top-5-border-falsehoods-pushed-congressional-democrats-media/> (referer: https://www.whitehouse.gov/news/page/4/)
+Traceback (most recent call last):
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/kangchen/USAGovernment/USAGovernment/spiders/whitehouse.py", line 51, in parse_deeper
+    item['content'] = response.xpath('//*[@id="main-content"]/div[2]/div/div//p/text()').extract().strip()
+AttributeError: 'list' object has no attribute 'strip'
+2019-03-14 08:48:48 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.whitehouse.gov/briefings-statements/daily-caller-trump-secured-funding-half-border-wall/> (referer: https://www.whitehouse.gov/news/page/4/)
+Traceback (most recent call last):
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/kangchen/USAGovernment/USAGovernment/spiders/whitehouse.py", line 51, in parse_deeper
+    item['content'] = response.xpath('//*[@id="main-content"]/div[2]/div/div//p/text()').extract().strip()
+AttributeError: 'list' object has no attribute 'strip'
+2019-03-14 08:48:48 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.whitehouse.gov/articles/february-jobs-report-shows-wage-growth-fastest-since-2009/> (referer: https://www.whitehouse.gov/news/page/4/)
+Traceback (most recent call last):
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/kangchen/USAGovernment/USAGovernment/spiders/whitehouse.py", line 51, in parse_deeper
+    item['content'] = response.xpath('//*[@id="main-content"]/div[2]/div/div//p/text()').extract().strip()
+AttributeError: 'list' object has no attribute 'strip'
+2019-03-14 08:48:49 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.whitehouse.gov/briefings-statements/joint-statement-president-united-states-donald-j-trump-prime-minister-czech-republic-andrej-babis/> (referer: https://www.whitehouse.gov/news/page/4/)
+Traceback (most recent call last):
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/kangchen/USAGovernment/USAGovernment/spiders/whitehouse.py", line 51, in parse_deeper
+    item['content'] = response.xpath('//*[@id="main-content"]/div[2]/div/div//p/text()').extract().strip()
+AttributeError: 'list' object has no attribute 'strip'
+2019-03-14 08:48:49 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.whitehouse.gov/briefings-statements/remarks-president-trump-prime-minister-andrej-babis-czech-republic-bilateral-meeting/> (referer: https://www.whitehouse.gov/news/page/4/)
+Traceback (most recent call last):
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/kangchen/USAGovernment/USAGovernment/spiders/whitehouse.py", line 51, in parse_deeper
+    item['content'] = response.xpath('//*[@id="main-content"]/div[2]/div/div//p/text()').extract().strip()
+AttributeError: 'list' object has no attribute 'strip'
+2019-03-14 08:48:49 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.whitehouse.gov/briefings-statements/bill-announcement-24/> (referer: https://www.whitehouse.gov/news/page/4/)
+Traceback (most recent call last):
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/kangchen/USAGovernment/USAGovernment/spiders/whitehouse.py", line 51, in parse_deeper
+    item['content'] = response.xpath('//*[@id="main-content"]/div[2]/div/div//p/text()').extract().strip()
+AttributeError: 'list' object has no attribute 'strip'
+2019-03-14 08:48:49 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.whitehouse.gov/presidential-actions/president-donald-j-trump-announces-intent-nominate-individual-key-administration-post-6/> (referer: https://www.whitehouse.gov/news/page/4/)
+Traceback (most recent call last):
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/kangchen/USAGovernment/USAGovernment/spiders/whitehouse.py", line 51, in parse_deeper
+    item['content'] = response.xpath('//*[@id="main-content"]/div[2]/div/div//p/text()').extract().strip()
+AttributeError: 'list' object has no attribute 'strip'
+2019-03-14 08:48:49 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.whitehouse.gov/briefings-statements/white-house-announces-presidential-delegation-attend-opening-ceremony-special-olympics-world-games/> (referer: https://www.whitehouse.gov/news/page/4/)
+Traceback (most recent call last):
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/kangchen/USAGovernment/USAGovernment/spiders/whitehouse.py", line 51, in parse_deeper
+    item['content'] = response.xpath('//*[@id="main-content"]/div[2]/div/div//p/text()').extract().strip()
+AttributeError: 'list' object has no attribute 'strip'
+2019-03-14 08:48:49 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.whitehouse.gov/briefings-statements/statement-press-secretary-visit-taoiseach-leo-varadkar-ireland/> (referer: https://www.whitehouse.gov/news/page/4/)
+Traceback (most recent call last):
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/kangchen/USAGovernment/USAGovernment/spiders/whitehouse.py", line 51, in parse_deeper
+    item['content'] = response.xpath('//*[@id="main-content"]/div[2]/div/div//p/text()').extract().strip()
+AttributeError: 'list' object has no attribute 'strip'
+2019-03-14 08:48:49 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.whitehouse.gov/briefings-statements/presidential-message-on-international-womens-day-2019/> (referer: https://www.whitehouse.gov/news/page/4/)
+Traceback (most recent call last):
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/kangchen/USAGovernment/USAGovernment/spiders/whitehouse.py", line 51, in parse_deeper
+    item['content'] = response.xpath('//*[@id="main-content"]/div[2]/div/div//p/text()').extract().strip()
+AttributeError: 'list' object has no attribute 'strip'
+2019-03-14 08:48:50 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.whitehouse.gov/articles/team-trump-keeping-promises-trade/> (referer: https://www.whitehouse.gov/news/page/5/)
+Traceback (most recent call last):
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/kangchen/USAGovernment/USAGovernment/spiders/whitehouse.py", line 51, in parse_deeper
+    item['content'] = response.xpath('//*[@id="main-content"]/div[2]/div/div//p/text()').extract().strip()
+AttributeError: 'list' object has no attribute 'strip'
+2019-03-14 08:48:50 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.whitehouse.gov/presidential-actions/two-nominations-sent-senate-5/> (referer: https://www.whitehouse.gov/news/page/5/)
+Traceback (most recent call last):
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/kangchen/USAGovernment/USAGovernment/spiders/whitehouse.py", line 51, in parse_deeper
+    item['content'] = response.xpath('//*[@id="main-content"]/div[2]/div/div//p/text()').extract().strip()
+AttributeError: 'list' object has no attribute 'strip'
+2019-03-14 08:48:50 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.whitehouse.gov/presidential-actions/executive-order-revocation-reporting-requirement/> (referer: https://www.whitehouse.gov/news/page/5/)
+Traceback (most recent call last):
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/kangchen/USAGovernment/USAGovernment/spiders/whitehouse.py", line 51, in parse_deeper
+    item['content'] = response.xpath('//*[@id="main-content"]/div[2]/div/div//p/text()').extract().strip()
+AttributeError: 'list' object has no attribute 'strip'
+2019-03-14 08:48:50 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.whitehouse.gov/briefings-statements/statement-national-security-advisor-ambassador-john-bolton/> (referer: https://www.whitehouse.gov/news/page/5/)
+Traceback (most recent call last):
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/kangchen/USAGovernment/USAGovernment/spiders/whitehouse.py", line 51, in parse_deeper
+    item['content'] = response.xpath('//*[@id="main-content"]/div[2]/div/div//p/text()').extract().strip()
+AttributeError: 'list' object has no attribute 'strip'
+2019-03-14 08:48:50 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.whitehouse.gov/presidential-actions/president-donald-j-trump-announces-intent-nominate-key-individual-administration-post/> (referer: https://www.whitehouse.gov/news/page/5/)
+Traceback (most recent call last):
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/kangchen/USAGovernment/USAGovernment/spiders/whitehouse.py", line 51, in parse_deeper
+    item['content'] = response.xpath('//*[@id="main-content"]/div[2]/div/div//p/text()').extract().strip()
+AttributeError: 'list' object has no attribute 'strip'
+2019-03-14 08:48:50 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.whitehouse.gov/briefings-statements/remarks-vice-president-pence-latino-coalition-legislative-summit/> (referer: https://www.whitehouse.gov/news/page/5/)
+Traceback (most recent call last):
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/kangchen/USAGovernment/USAGovernment/spiders/whitehouse.py", line 51, in parse_deeper
+    item['content'] = response.xpath('//*[@id="main-content"]/div[2]/div/div//p/text()').extract().strip()
+AttributeError: 'list' object has no attribute 'strip'
+2019-03-14 08:48:50 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.whitehouse.gov/briefings-statements/remarks-president-trump-american-workforce-policy-advisory-board-meeting/> (referer: https://www.whitehouse.gov/news/page/5/)
+Traceback (most recent call last):
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/kangchen/USAGovernment/USAGovernment/spiders/whitehouse.py", line 51, in parse_deeper
+    item['content'] = response.xpath('//*[@id="main-content"]/div[2]/div/div//p/text()').extract().strip()
+AttributeError: 'list' object has no attribute 'strip'
+2019-03-14 08:48:50 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.whitehouse.gov/briefings-statements/remarks-vice-president-pence-receiving-briefing-tour-dea-facility-phoenix-az/> (referer: https://www.whitehouse.gov/news/page/5/)
+Traceback (most recent call last):
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/kangchen/USAGovernment/USAGovernment/spiders/whitehouse.py", line 51, in parse_deeper
+    item['content'] = response.xpath('//*[@id="main-content"]/div[2]/div/div//p/text()').extract().strip()
+AttributeError: 'list' object has no attribute 'strip'
+2019-03-14 08:48:50 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.whitehouse.gov/briefings-statements/associated-press-hot-us-job-market-coaxing-people-sidelines/> (referer: https://www.whitehouse.gov/news/page/5/)
+Traceback (most recent call last):
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/kangchen/USAGovernment/USAGovernment/spiders/whitehouse.py", line 51, in parse_deeper
+    item['content'] = response.xpath('//*[@id="main-content"]/div[2]/div/div//p/text()').extract().strip()
+AttributeError: 'list' object has no attribute 'strip'
+2019-03-14 08:48:50 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.whitehouse.gov/briefings-statements/remarks-president-trump-greeting-former-united-states-hostage-yemen-danny-burch-family/> (referer: https://www.whitehouse.gov/news/page/5/)
+Traceback (most recent call last):
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/kangchen/USAGovernment/USAGovernment/spiders/whitehouse.py", line 51, in parse_deeper
+    item['content'] = response.xpath('//*[@id="main-content"]/div[2]/div/div//p/text()').extract().strip()
+AttributeError: 'list' object has no attribute 'strip'
+2019-03-14 08:48:51 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.whitehouse.gov/news/page/6/> (referer: https://www.whitehouse.gov/news/page/5/)
+Traceback (most recent call last):
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/Users/kangchen/USAGovernment/USAGovernment/spiders/whitehouse.py", line 19, in parse
+    item['issue'] = article.xpath('./div/p/text()').extract_first().strip()
+AttributeError: 'NoneType' object has no attribute 'strip'
+2019-03-14 11:14:46 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.whitehouse.gov/news/> (referer: None)
+Traceback (most recent call last):
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/Users/kangchen/USAGovernment/USAGovernment/spiders/whitehouse.py", line 20, in parse
+    item['issue'] = article.xpath('./div/div/div/p/a/text()').extract_first().strip()
+AttributeError: 'NoneType' object has no attribute 'strip'
+2019-03-14 11:14:47 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.whitehouse.gov/presidential-actions/presidential-proclamation-national-agriculture-day-2019/> (referer: https://www.whitehouse.gov/news/)
+Traceback (most recent call last):
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/kangchen/USAGovernment/USAGovernment/spiders/whitehouse.py", line 52, in parse_deeper
+    item['content'] = response.xpath('//*[@id="main-content"]/div[2]/div/div//p/text()').extract().strip()
+AttributeError: 'list' object has no attribute 'strip'
+2019-03-14 11:14:52 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.whitehouse.gov/news/> (referer: None)
+Traceback (most recent call last):
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/Users/kangchen/USAGovernment/USAGovernment/spiders/whitehouse.py", line 20, in parse
+    item['issue'] = article.xpath('./div/div/div/p/a/text()').extract_first().strip()
+AttributeError: 'NoneType' object has no attribute 'strip'
+2019-03-14 11:14:52 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.whitehouse.gov/presidential-actions/presidential-proclamation-national-agriculture-day-2019/> (referer: https://www.whitehouse.gov/news/)
+Traceback (most recent call last):
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/kangchen/USAGovernment/USAGovernment/spiders/whitehouse.py", line 52, in parse_deeper
+    item['content'] = response.xpath('//*[@id="main-content"]/div[2]/div/div//p/text()').extract().strip()
+AttributeError: 'list' object has no attribute 'strip'
+2019-03-14 11:18:11 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.whitehouse.gov/news/> (referer: None)
+Traceback (most recent call last):
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/Users/kangchen/USAGovernment/USAGovernment/spiders/whitehouse.py", line 20, in parse
+    item['issue'] = article.xpath('./div/div/div/p/a/text()').extract_first().strip()
+AttributeError: 'NoneType' object has no attribute 'strip'
+2019-03-14 11:18:11 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.whitehouse.gov/presidential-actions/presidential-proclamation-national-agriculture-day-2019/> (referer: https://www.whitehouse.gov/news/)
+Traceback (most recent call last):
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/Users/kangchen/USAGovernment/USAGovernment/spiders/whitehouse.py", line 52, in parse_deeper
+    item['content'] = response.xpath('//*[@id="main-content"]/div[2]/div/div//p/text()').extract().strip()
+AttributeError: 'list' object has no attribute 'strip'
+2019-03-14 11:18:28 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: USAGovernment)
+2019-03-14 11:18:28 [scrapy.utils.log] INFO: Versions: lxml 4.1.1.0, libxml2 2.9.9, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 18.9.0, Python 3.7.2 (default, Dec 29 2018, 00:00:04) - [Clang 4.0.1 (tags/RELEASE_401/final)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.5, Platform Darwin-18.2.0-x86_64-i386-64bit
+2019-03-14 11:18:28 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'USAGovernment', 'CONCURRENT_REQUESTS_PER_DOMAIN': 16, 'LOG_FILE': './mylog.log', 'NEWSPIDER_MODULE': 'USAGovernment.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['USAGovernment.spiders'], 'USER_AGENT': 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1'}
+2019-03-14 11:18:28 [scrapy.extensions.telnet] INFO: Telnet Password: 38c355c393c3f7e1
+2019-03-14 11:18:28 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2019-03-14 11:18:28 [faker.factory] DEBUG: Not in REPL -> leaving logger event level as is.
+2019-03-14 11:18:28 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.address`.
+2019-03-14 11:18:28 [faker.factory] DEBUG: Provider `faker.providers.address` has been localized to `en_US`.
+2019-03-14 11:18:28 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.automotive`.
+2019-03-14 11:18:28 [faker.factory] DEBUG: Provider `faker.providers.automotive` has been localized to `en_US`.
+2019-03-14 11:18:28 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.bank`.
+2019-03-14 11:18:28 [faker.factory] DEBUG: Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+2019-03-14 11:18:28 [faker.factory] DEBUG: Provider `faker.providers.barcode` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2019-03-14 11:18:28 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.color`.
+2019-03-14 11:18:28 [faker.factory] DEBUG: Provider `faker.providers.color` has been localized to `en_US`.
+2019-03-14 11:18:28 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.company`.
+2019-03-14 11:18:28 [faker.factory] DEBUG: Provider `faker.providers.company` has been localized to `en_US`.
+2019-03-14 11:18:28 [faker.factory] DEBUG: Provider `faker.providers.credit_card` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2019-03-14 11:18:28 [faker.factory] DEBUG: Provider `faker.providers.currency` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2019-03-14 11:18:28 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.date_time`.
+2019-03-14 11:18:28 [faker.factory] DEBUG: Provider `faker.providers.date_time` has been localized to `en_US`.
+2019-03-14 11:18:28 [faker.factory] DEBUG: Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2019-03-14 11:18:28 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.geo`.
+2019-03-14 11:18:28 [faker.factory] DEBUG: Provider `faker.providers.geo` has been localized to `en_US`.
+2019-03-14 11:18:28 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.internet`.
+2019-03-14 11:18:28 [faker.factory] DEBUG: Provider `faker.providers.internet` has been localized to `en_US`.
+2019-03-14 11:18:28 [faker.factory] DEBUG: Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2019-03-14 11:18:28 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.job`.
+2019-03-14 11:18:28 [faker.factory] DEBUG: Provider `faker.providers.job` has been localized to `en_US`.
+2019-03-14 11:18:28 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.lorem`.
+2019-03-14 11:18:28 [faker.factory] DEBUG: Provider `faker.providers.lorem` has been localized to `en_US`.
+2019-03-14 11:18:28 [faker.factory] DEBUG: Provider `faker.providers.misc` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2019-03-14 11:18:28 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.person`.
+2019-03-14 11:18:28 [faker.factory] DEBUG: Provider `faker.providers.person` has been localized to `en_US`.
+2019-03-14 11:18:28 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.phone_number`.
+2019-03-14 11:18:28 [faker.factory] DEBUG: Provider `faker.providers.phone_number` has been localized to `en_US`.
+2019-03-14 11:18:28 [faker.factory] DEBUG: Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2019-03-14 11:18:28 [faker.factory] DEBUG: Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2019-03-14 11:18:28 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.ssn`.
+2019-03-14 11:18:28 [faker.factory] DEBUG: Provider `faker.providers.ssn` has been localized to `en_US`.
+2019-03-14 11:18:28 [faker.factory] DEBUG: Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2019-03-14 11:18:29 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'USAGovernment.middlewares.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-03-14 11:18:29 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-03-14 11:18:29 [scrapy.middleware] INFO: Enabled item pipelines:
+['USAGovernment.pipelines.UsagovernmentPipeline']
+2019-03-14 11:18:29 [scrapy.core.engine] INFO: Spider opened
+2019-03-14 11:18:29 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-03-14 11:18:29 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-03-14 11:18:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.whitehouse.gov/robots.txt> (referer: None)
+2019-03-14 11:18:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.whitehouse.gov/news/> (referer: None)
+2019-03-14 11:18:29 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.whitehouse.gov/news/> (referer: None)
+Traceback (most recent call last):
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/Users/kangchen/USAGovernment/USAGovernment/spiders/whitehouse.py", line 20, in parse
+    item['issue'] = article.xpath('./div/div/div/p/a/text()').extract_first().strip()
+AttributeError: 'NoneType' object has no attribute 'strip'
+2019-03-14 11:18:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.whitehouse.gov/presidential-actions/presidential-proclamation-national-agriculture-day-2019/> (referer: https://www.whitehouse.gov/news/)
+2019-03-14 11:18:29 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.whitehouse.gov/presidential-actions/presidential-proclamation-national-agriculture-day-2019/> (referer: https://www.whitehouse.gov/news/)
+Traceback (most recent call last):
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/Users/kangchen/USAGovernment/USAGovernment/spiders/whitehouse.py", line 52, in parse_deeper
+    item['content'] = response.xpath('//*[@id="main-content"]/div[2]/div/div//p/text()').extract().strip()
+AttributeError: 'list' object has no attribute 'strip'
+2019-03-14 11:18:29 [scrapy.core.engine] INFO: Closing spider (finished)
+2019-03-14 11:18:29 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 1133,
+ 'downloader/request_count': 3,
+ 'downloader/request_method_count/GET': 3,
+ 'downloader/response_bytes': 28684,
+ 'downloader/response_count': 3,
+ 'downloader/response_status_count/200': 3,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 3, 14, 3, 18, 29, 948934),
+ 'log_count/DEBUG': 39,
+ 'log_count/ERROR': 2,
+ 'log_count/INFO': 9,
+ 'memusage/max': 59928576,
+ 'memusage/startup': 59928576,
+ 'request_depth_max': 1,
+ 'response_received_count': 3,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/200': 1,
+ 'scheduler/dequeued': 2,
+ 'scheduler/dequeued/memory': 2,
+ 'scheduler/enqueued': 2,
+ 'scheduler/enqueued/memory': 2,
+ 'spider_exceptions/AttributeError': 2,
+ 'start_time': datetime.datetime(2019, 3, 14, 3, 18, 29, 74296)}
+2019-03-14 11:18:29 [scrapy.core.engine] INFO: Spider closed (finished)
+2019-03-14 11:18:35 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: USAGovernment)
+2019-03-14 11:18:36 [scrapy.utils.log] INFO: Versions: lxml 4.1.1.0, libxml2 2.9.9, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 18.9.0, Python 3.7.2 (default, Dec 29 2018, 00:00:04) - [Clang 4.0.1 (tags/RELEASE_401/final)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.5, Platform Darwin-18.2.0-x86_64-i386-64bit
+2019-03-14 11:18:36 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'USAGovernment', 'CONCURRENT_REQUESTS_PER_DOMAIN': 16, 'LOG_FILE': './mylog.log', 'NEWSPIDER_MODULE': 'USAGovernment.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['USAGovernment.spiders'], 'USER_AGENT': 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1'}
+2019-03-14 11:18:36 [scrapy.extensions.telnet] INFO: Telnet Password: bb65f3a3258b6514
+2019-03-14 11:18:36 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2019-03-14 11:18:36 [faker.factory] DEBUG: Not in REPL -> leaving logger event level as is.
+2019-03-14 11:18:36 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.address`.
+2019-03-14 11:18:36 [faker.factory] DEBUG: Provider `faker.providers.address` has been localized to `en_US`.
+2019-03-14 11:18:36 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.automotive`.
+2019-03-14 11:18:36 [faker.factory] DEBUG: Provider `faker.providers.automotive` has been localized to `en_US`.
+2019-03-14 11:18:36 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.bank`.
+2019-03-14 11:18:36 [faker.factory] DEBUG: Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+2019-03-14 11:18:36 [faker.factory] DEBUG: Provider `faker.providers.barcode` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2019-03-14 11:18:36 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.color`.
+2019-03-14 11:18:36 [faker.factory] DEBUG: Provider `faker.providers.color` has been localized to `en_US`.
+2019-03-14 11:18:36 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.company`.
+2019-03-14 11:18:36 [faker.factory] DEBUG: Provider `faker.providers.company` has been localized to `en_US`.
+2019-03-14 11:18:36 [faker.factory] DEBUG: Provider `faker.providers.credit_card` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2019-03-14 11:18:36 [faker.factory] DEBUG: Provider `faker.providers.currency` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2019-03-14 11:18:36 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.date_time`.
+2019-03-14 11:18:36 [faker.factory] DEBUG: Provider `faker.providers.date_time` has been localized to `en_US`.
+2019-03-14 11:18:36 [faker.factory] DEBUG: Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2019-03-14 11:18:36 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.geo`.
+2019-03-14 11:18:36 [faker.factory] DEBUG: Provider `faker.providers.geo` has been localized to `en_US`.
+2019-03-14 11:18:36 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.internet`.
+2019-03-14 11:18:36 [faker.factory] DEBUG: Provider `faker.providers.internet` has been localized to `en_US`.
+2019-03-14 11:18:36 [faker.factory] DEBUG: Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2019-03-14 11:18:36 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.job`.
+2019-03-14 11:18:36 [faker.factory] DEBUG: Provider `faker.providers.job` has been localized to `en_US`.
+2019-03-14 11:18:36 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.lorem`.
+2019-03-14 11:18:36 [faker.factory] DEBUG: Provider `faker.providers.lorem` has been localized to `en_US`.
+2019-03-14 11:18:36 [faker.factory] DEBUG: Provider `faker.providers.misc` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2019-03-14 11:18:36 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.person`.
+2019-03-14 11:18:36 [faker.factory] DEBUG: Provider `faker.providers.person` has been localized to `en_US`.
+2019-03-14 11:18:36 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.phone_number`.
+2019-03-14 11:18:36 [faker.factory] DEBUG: Provider `faker.providers.phone_number` has been localized to `en_US`.
+2019-03-14 11:18:36 [faker.factory] DEBUG: Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2019-03-14 11:18:36 [faker.factory] DEBUG: Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2019-03-14 11:18:36 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.ssn`.
+2019-03-14 11:18:36 [faker.factory] DEBUG: Provider `faker.providers.ssn` has been localized to `en_US`.
+2019-03-14 11:18:36 [faker.factory] DEBUG: Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2019-03-14 11:18:36 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'USAGovernment.middlewares.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-03-14 11:18:36 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-03-14 11:18:36 [scrapy.middleware] INFO: Enabled item pipelines:
+['USAGovernment.pipelines.UsagovernmentPipeline']
+2019-03-14 11:18:36 [scrapy.core.engine] INFO: Spider opened
+2019-03-14 11:18:36 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-03-14 11:18:36 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-03-14 11:18:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.whitehouse.gov/robots.txt> (referer: None)
+2019-03-14 11:18:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.whitehouse.gov/news/> (referer: None)
+2019-03-14 11:18:36 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.whitehouse.gov/news/> (referer: None)
+Traceback (most recent call last):
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/Users/kangchen/USAGovernment/USAGovernment/spiders/whitehouse.py", line 20, in parse
+    item['issue'] = article.xpath('./div/div/div/p/a/text()').extract_first().strip()
+AttributeError: 'NoneType' object has no attribute 'strip'
+2019-03-14 11:18:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.whitehouse.gov/presidential-actions/presidential-proclamation-national-agriculture-day-2019/> (referer: https://www.whitehouse.gov/news/)
+2019-03-14 11:18:37 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.whitehouse.gov/presidential-actions/presidential-proclamation-national-agriculture-day-2019/> (referer: https://www.whitehouse.gov/news/)
+Traceback (most recent call last):
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/Users/kangchen/USAGovernment/USAGovernment/spiders/whitehouse.py", line 52, in parse_deeper
+    item['content'] = response.xpath('//*[@id="main-content"]/div[2]/div/div//p/text()').extract().strip()
+AttributeError: 'list' object has no attribute 'strip'
+2019-03-14 11:18:37 [scrapy.core.engine] INFO: Closing spider (finished)
+2019-03-14 11:18:37 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 1112,
+ 'downloader/request_count': 3,
+ 'downloader/request_method_count/GET': 3,
+ 'downloader/response_bytes': 28684,
+ 'downloader/response_count': 3,
+ 'downloader/response_status_count/200': 3,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 3, 14, 3, 18, 37, 129240),
+ 'log_count/DEBUG': 39,
+ 'log_count/ERROR': 2,
+ 'log_count/INFO': 9,
+ 'memusage/max': 59990016,
+ 'memusage/startup': 59990016,
+ 'request_depth_max': 1,
+ 'response_received_count': 3,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/200': 1,
+ 'scheduler/dequeued': 2,
+ 'scheduler/dequeued/memory': 2,
+ 'scheduler/enqueued': 2,
+ 'scheduler/enqueued/memory': 2,
+ 'spider_exceptions/AttributeError': 2,
+ 'start_time': datetime.datetime(2019, 3, 14, 3, 18, 36, 273493)}
+2019-03-14 11:18:37 [scrapy.core.engine] INFO: Spider closed (finished)
+2019-03-14 11:44:17 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: USAGovernment)
+2019-03-14 11:44:17 [scrapy.utils.log] INFO: Versions: lxml 4.1.1.0, libxml2 2.9.9, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 18.9.0, Python 3.7.2 (default, Dec 29 2018, 00:00:04) - [Clang 4.0.1 (tags/RELEASE_401/final)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.5, Platform Darwin-18.2.0-x86_64-i386-64bit
+2019-03-14 11:44:17 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'USAGovernment', 'CONCURRENT_REQUESTS_PER_DOMAIN': 16, 'LOG_FILE': './mylog.log', 'NEWSPIDER_MODULE': 'USAGovernment.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['USAGovernment.spiders'], 'USER_AGENT': 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1'}
+2019-03-14 11:44:17 [scrapy.extensions.telnet] INFO: Telnet Password: cf7c2472d29d1e30
+2019-03-14 11:44:17 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2019-03-14 11:44:17 [faker.factory] DEBUG: Not in REPL -> leaving logger event level as is.
+2019-03-14 11:44:17 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.address`.
+2019-03-14 11:44:17 [faker.factory] DEBUG: Provider `faker.providers.address` has been localized to `en_US`.
+2019-03-14 11:44:17 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.automotive`.
+2019-03-14 11:44:17 [faker.factory] DEBUG: Provider `faker.providers.automotive` has been localized to `en_US`.
+2019-03-14 11:44:17 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.bank`.
+2019-03-14 11:44:17 [faker.factory] DEBUG: Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+2019-03-14 11:44:17 [faker.factory] DEBUG: Provider `faker.providers.barcode` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2019-03-14 11:44:17 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.color`.
+2019-03-14 11:44:17 [faker.factory] DEBUG: Provider `faker.providers.color` has been localized to `en_US`.
+2019-03-14 11:44:17 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.company`.
+2019-03-14 11:44:17 [faker.factory] DEBUG: Provider `faker.providers.company` has been localized to `en_US`.
+2019-03-14 11:44:17 [faker.factory] DEBUG: Provider `faker.providers.credit_card` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2019-03-14 11:44:17 [faker.factory] DEBUG: Provider `faker.providers.currency` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2019-03-14 11:44:17 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.date_time`.
+2019-03-14 11:44:17 [faker.factory] DEBUG: Provider `faker.providers.date_time` has been localized to `en_US`.
+2019-03-14 11:44:17 [faker.factory] DEBUG: Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2019-03-14 11:44:17 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.geo`.
+2019-03-14 11:44:17 [faker.factory] DEBUG: Provider `faker.providers.geo` has been localized to `en_US`.
+2019-03-14 11:44:17 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.internet`.
+2019-03-14 11:44:17 [faker.factory] DEBUG: Provider `faker.providers.internet` has been localized to `en_US`.
+2019-03-14 11:44:17 [faker.factory] DEBUG: Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2019-03-14 11:44:17 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.job`.
+2019-03-14 11:44:17 [faker.factory] DEBUG: Provider `faker.providers.job` has been localized to `en_US`.
+2019-03-14 11:44:17 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.lorem`.
+2019-03-14 11:44:17 [faker.factory] DEBUG: Provider `faker.providers.lorem` has been localized to `en_US`.
+2019-03-14 11:44:17 [faker.factory] DEBUG: Provider `faker.providers.misc` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2019-03-14 11:44:17 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.person`.
+2019-03-14 11:44:17 [faker.factory] DEBUG: Provider `faker.providers.person` has been localized to `en_US`.
+2019-03-14 11:44:17 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.phone_number`.
+2019-03-14 11:44:17 [faker.factory] DEBUG: Provider `faker.providers.phone_number` has been localized to `en_US`.
+2019-03-14 11:44:17 [faker.factory] DEBUG: Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2019-03-14 11:44:17 [faker.factory] DEBUG: Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2019-03-14 11:44:17 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.ssn`.
+2019-03-14 11:44:17 [faker.factory] DEBUG: Provider `faker.providers.ssn` has been localized to `en_US`.
+2019-03-14 11:44:17 [faker.factory] DEBUG: Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2019-03-14 11:44:17 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'USAGovernment.middlewares.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-03-14 11:44:17 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-03-14 11:44:17 [scrapy.middleware] INFO: Enabled item pipelines:
+['USAGovernment.pipelines.UsagovernmentPipeline']
+2019-03-14 11:44:17 [scrapy.core.engine] INFO: Spider opened
+2019-03-14 11:44:17 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-03-14 11:44:17 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-03-14 11:44:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.whitehouse.gov/robots.txt> (referer: None)
+2019-03-14 11:44:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.whitehouse.gov/news/> (referer: None)
+2019-03-14 11:44:18 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.whitehouse.gov/news/> (referer: None)
+Traceback (most recent call last):
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/Users/kangchen/USAGovernment/USAGovernment/spiders/whitehouse.py", line 20, in parse
+    item['issue'] = article.xpath('./div/div/div/p/a/text()').extract_first().strip()
+AttributeError: 'NoneType' object has no attribute 'strip'
+2019-03-14 11:44:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.whitehouse.gov/presidential-actions/presidential-proclamation-national-agriculture-day-2019/> (referer: https://www.whitehouse.gov/news/)
+2019-03-14 11:44:18 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.whitehouse.gov/presidential-actions/presidential-proclamation-national-agriculture-day-2019/> (referer: https://www.whitehouse.gov/news/)
+Traceback (most recent call last):
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/Users/kangchen/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/Users/kangchen/USAGovernment/USAGovernment/spiders/whitehouse.py", line 52, in parse_deeper
+    item['content'] = response.xpath('//*[@id="main-content"]/div[2]/div/div//p/text()').extract().strip()
+AttributeError: 'list' object has no attribute 'strip'
+2019-03-14 11:44:18 [scrapy.core.engine] INFO: Closing spider (finished)
+2019-03-14 11:44:18 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 1161,
+ 'downloader/request_count': 3,
+ 'downloader/request_method_count/GET': 3,
+ 'downloader/response_bytes': 28685,
+ 'downloader/response_count': 3,
+ 'downloader/response_status_count/200': 3,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 3, 14, 3, 44, 18, 642897),
+ 'log_count/DEBUG': 39,
+ 'log_count/ERROR': 2,
+ 'log_count/INFO': 9,
+ 'memusage/max': 59842560,
+ 'memusage/startup': 59842560,
+ 'request_depth_max': 1,
+ 'response_received_count': 3,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/200': 1,
+ 'scheduler/dequeued': 2,
+ 'scheduler/dequeued/memory': 2,
+ 'scheduler/enqueued': 2,
+ 'scheduler/enqueued/memory': 2,
+ 'spider_exceptions/AttributeError': 2,
+ 'start_time': datetime.datetime(2019, 3, 14, 3, 44, 17, 942387)}
+2019-03-14 11:44:18 [scrapy.core.engine] INFO: Spider closed (finished)
